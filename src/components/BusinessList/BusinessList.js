@@ -9,7 +9,7 @@ return (
        {
             this.props.businesses.map(business => {
               return (
-                <Business business={this.business}/>
+                <Business business={business}/>
               );
 
             })
